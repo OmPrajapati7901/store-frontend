@@ -26,9 +26,13 @@ const ProductCard: React.FC<ProductCardProps> = ({
       {/* Image Container */}
       <div className="relative aspect-square bg-gray-100 overflow-hidden">
         <img
-          src={`https://images.unsplash.com/${image}?w=300&h=300&fit=crop`}
+          src={`/src/assets/images/${image}`}
+          // src={`https://images.unsplash.com/${image}?w=300&h=300&fit=crop`}
           alt={name}
           className="w-full h-full object-cover group-hover:scale-105 transition-transform duration-300"
+          onError={(e) => {
+          (e.target as HTMLImageElement).src = '/src/assets/images/default.jpg'; // Path to your fallback image
+          }}
         />
         {isOnSale && (
           <div className="absolute top-2 left-2 bg-primary text-white px-2 py-1 rounded-full text-xs font-bold">

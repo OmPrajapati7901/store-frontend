@@ -17,14 +17,14 @@ const ProductCatalog = () => {
   ];
 
   const products = [
-    { id: 1, name: 'Classic Potato Chips', price: 3.49, originalPrice: 4.99, image: 'photo-1618160702438-9b02ab6515c9', category: 'snacks', isOnSale: true },
-    { id: 2, name: 'Energy Drink Pack', price: 12.99, image: 'photo-1618160702438-9b02ab6515c9', category: 'beverages' },
-    { id: 3, name: 'Chocolate Bar', price: 2.99, image: 'photo-1618160702438-9b02ab6515c9', category: 'snacks' },
-    { id: 4, name: 'Fresh Sandwich', price: 6.99, image: 'photo-1618160702438-9b02ab6515c9', category: 'fresh' },
-    { id: 5, name: 'Bottled Water 6-Pack', price: 4.99, originalPrice: 6.99, image: 'photo-1618160702438-9b02ab6515c9', category: 'beverages', isOnSale: true },
-    { id: 6, name: 'Cleaning Supplies', price: 8.99, image: 'photo-1618160702438-9b02ab6515c9', category: 'household' },
-    { id: 7, name: 'Protein Bar', price: 3.99, image: 'photo-1618160702438-9b02ab6515c9', category: 'snacks' },
-    { id: 8, name: 'Coffee Beans', price: 9.99, image: 'photo-1618160702438-9b02ab6515c9', category: 'beverages' }
+    { id: 1, name: 'Classic Potato Chips', price: 3.49, originalPrice: 4.99, image: 'ClassicPotatoChips.jpeg', category: 'snacks', isOnSale: true },
+    { id: 2, name: 'Energy Drink Pack', price: 12.99, image: 'EnergyDrinkPack.png', category: 'beverages' },
+    { id: 3, name: 'Chocolate Bar', price: 2.99, image: 'ChocolateBar.png', category: 'snacks' },
+    { id: 4, name: 'Fresh Sandwich', price: 6.99, image: 'FreshSandwich.png', category: 'fresh' },
+    { id: 5, name: 'Bottled Water 6-Pack', price: 4.99, originalPrice: 6.99, image: 'BottledWater.png', category: 'beverages', isOnSale: true },
+    { id: 6, name: 'Cleaning Supplies', price: 8.99, image: 'CleaningSupplies.png', category: 'household' },
+    { id: 7, name: 'Protein Bar', price: 3.99, image: 'ProteinBar.png', category: 'snacks' },
+    { id: 8, name: 'Coffee Beans', price: 9.99, image: 'CoffeeBeans.png', category: 'beverages' }
   ];
 
   const filteredProducts = products.filter(product => {

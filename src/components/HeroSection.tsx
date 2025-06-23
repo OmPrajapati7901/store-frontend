@@ -12,7 +12,7 @@ const HeroSection = () => {
           <div className="animate-fade-in">
             <h1 className="text-4xl lg:text-6xl font-bold leading-tight mb-6">
               Your Neighborhood
-              <span className="block text-yellow-300">ConviStore</span>
+              <span className="block text-yellow-300">Gordon ConviStore</span>
             </h1>
             <p className="text-xl lg:text-2xl mb-8 text-gray-100">
               Fresh products, great prices, and convenience at your fingertips. 
@@ -29,7 +29,7 @@ const HeroSection = () => {
               <Button 
                 variant="outline" 
                 size="lg" 
-                className="border-white text-white hover:bg-white hover:text-primary text-lg px-8 py-4 flex items-center space-x-2"
+                className="border-white text-primary hover:bg-gray-100 hover:text-primary text-lg px-8 py-4 flex items-center space-x-2"
               >
                 <span>View Specials</span>
                 <ArrowRight className="w-5 h-5" />
